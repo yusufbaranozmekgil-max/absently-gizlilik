@@ -20,8 +20,8 @@ Ders programını ya da akademik takvimi fotoğraftan okutmayı **kendin seçers
 
 - Seçtiğin görsel(ler), okunması için doğrudan telefonundan Anthropic'e (Claude yapay zekâ hizmeti) gönderilir.
   Bu istek senin girdiğin Claude API anahtarıyla yapılır; arada bizim sunucumuz yoktur.
-- Görselin Anthropic tarafında nasıl işlendiği Anthropic'in kendi koşullarına tabidir:
-  https://www.anthropic.com/legal/privacy
+- Görselin Anthropic tarafında nasıl işlendiği Anthropic'in kendi koşullarına tabidir. Anthropic, API'ye gelen
+  istekleri kendi sunucularında 30 güne kadar saklayıp siler: https://www.anthropic.com/legal/privacy
 - API anahtarın telefonunun şifreli deposunda (Android Keystore / iOS Keychain) saklanır ve yalnızca bu isteklerde
   kullanılır. Ayarlar → Fotoğraftan okuma bölümünden istediğin zaman silebilirsin.
 - Bu özelliği kullanmazsan telefonundan hiçbir veri çıkmaz.
